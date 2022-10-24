@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-24T09:18:59.165Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="M-9c4fuJTVZnAtfN9Gck" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-24T09:20:15.750Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="2LFrJAL2tlkaUEJniLh5" version="20.5.1" type="github">
   <diagram name="Page-1" id="929967ad-93f9-6ef4-fab6-5d389245f69c">
     <mxGraphModel dx="1734" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -49,6 +49,21 @@
         <mxCell id="hCNNh5W3-C8_m7L4135V-20" value="Доставлен" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hCNNh5W3-C8_m7L4135V-19">
           <mxGeometry x="0.05" y="-4" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hCNNh5W3-C8_m7L4135V-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="hCNNh5W3-C8_m7L4135V-6" target="hCNNh5W3-C8_m7L4135V-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1180" y="390" />
+              <mxPoint x="860" y="390" />
+              <mxPoint x="860" y="540" />
+              <mxPoint x="500" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hCNNh5W3-C8_m7L4135V-24" value="Ошибка доставки" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hCNNh5W3-C8_m7L4135V-23">
+          <mxGeometry x="-0.4132" y="4" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hCNNh5W3-C8_m7L4135V-6" value="Deviliry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
