@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-24T09:27:11.340Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="MbY9DnU96Jmxelj4AFwT" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-24T09:39:14.388Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="mm7WsBqSpCy-gToLaX-V" version="20.5.1" type="github">
   <diagram name="Page-1" id="929967ad-93f9-6ef4-fab6-5d389245f69c">
-    <mxGraphModel dx="1017" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1474" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
@@ -37,24 +37,33 @@
         <mxCell id="hCNNh5W3-C8_m7L4135V-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hCNNh5W3-C8_m7L4135V-4" target="hCNNh5W3-C8_m7L4135V-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="hCNNh5W3-C8_m7L4135V-32" value="Отмена заказа" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hCNNh5W3-C8_m7L4135V-15">
+          <mxGeometry x="0.081" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="hCNNh5W3-C8_m7L4135V-4" value="Ошибка" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hCNNh5W3-C8_m7L4135V-5" value="Закрытый заказ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1160" y="460" width="120" height="60" as="geometry" />
+          <mxGeometry x="1290" y="510" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hCNNh5W3-C8_m7L4135V-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hCNNh5W3-C8_m7L4135V-6" target="hCNNh5W3-C8_m7L4135V-5">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="hCNNh5W3-C8_m7L4135V-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hCNNh5W3-C8_m7L4135V-6" target="hCNNh5W3-C8_m7L4135V-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1350" y="280" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="hCNNh5W3-C8_m7L4135V-20" value="Доставлен" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hCNNh5W3-C8_m7L4135V-19">
           <mxGeometry x="0.05" y="-4" relative="1" as="geometry">
-            <mxPoint x="4" y="-4" as="offset" />
+            <mxPoint x="4" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hCNNh5W3-C8_m7L4135V-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="hCNNh5W3-C8_m7L4135V-6" target="hCNNh5W3-C8_m7L4135V-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1180" y="390" />
+              <mxPoint x="1190" y="390" />
               <mxPoint x="860" y="390" />
               <mxPoint x="860" y="540" />
               <mxPoint x="500" y="540" />
@@ -63,11 +72,11 @@
         </mxCell>
         <mxCell id="hCNNh5W3-C8_m7L4135V-24" value="Ошибка доставки" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hCNNh5W3-C8_m7L4135V-23">
           <mxGeometry x="-0.4132" y="4" relative="1" as="geometry">
-            <mxPoint x="45" y="-4" as="offset" />
+            <mxPoint x="-67" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hCNNh5W3-C8_m7L4135V-6" value="Deviliry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1160" y="240" width="120" height="60" as="geometry" />
+        <mxCell id="hCNNh5W3-C8_m7L4135V-6" value="Передан в доставку" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hCNNh5W3-C8_m7L4135V-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hCNNh5W3-C8_m7L4135V-1" target="hCNNh5W3-C8_m7L4135V-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -94,16 +103,45 @@
             <mxPoint x="52" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hCNNh5W3-C8_m7L4135V-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hCNNh5W3-C8_m7L4135V-11" target="hCNNh5W3-C8_m7L4135V-6">
+        <mxCell id="hCNNh5W3-C8_m7L4135V-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hCNNh5W3-C8_m7L4135V-11" target="hCNNh5W3-C8_m7L4135V-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hCNNh5W3-C8_m7L4135V-18" value="Доставка" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hCNNh5W3-C8_m7L4135V-17">
+        <mxCell id="hCNNh5W3-C8_m7L4135V-18" value="Передан Ресторану" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hCNNh5W3-C8_m7L4135V-17">
           <mxGeometry x="0.2571" y="-5" relative="1" as="geometry">
-            <mxPoint x="-18" y="-5" as="offset" />
+            <mxPoint x="-22" y="-5" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hCNNh5W3-C8_m7L4135V-11" value="Оплаченный" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="900" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hCNNh5W3-C8_m7L4135V-27" value="Приготовлен" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hCNNh5W3-C8_m7L4135V-26">
+          <mxGeometry x="-0.075" relative="1" as="geometry">
+            <mxPoint x="1170" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1170" y="248" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hCNNh5W3-C8_m7L4135V-26" value="Готовится&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hCNNh5W3-C8_m7L4135V-29" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="hCNNh5W3-C8_m7L4135V-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1120" y="160" as="sourcePoint" />
+            <mxPoint x="1100" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1120" y="370" />
+              <mxPoint x="840" y="370" />
+              <mxPoint x="840" y="450" />
+              <mxPoint x="840" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hCNNh5W3-C8_m7L4135V-31" value="Ошибка ресторана" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hCNNh5W3-C8_m7L4135V-29">
+          <mxGeometry x="-0.3232" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
